@@ -7,6 +7,7 @@ import com.facebook.react.ReactPackage
 import com.facebook.react.shell.MainReactPackage
 import com.myapplication.reactnativelibrary.customtoast.MyToastModule
 import com.myapplication.reactnativelibrary.customtoast.MyToastPackage
+import com.reactnative.ivpusic.imagepicker.PickerPackage
 import java.util.*
 
 class MainReactApplication : Application(), ReactApplication {
@@ -22,7 +23,8 @@ class MainReactApplication : Application(), ReactApplication {
         override fun getPackages(): List<ReactPackage> {
             return Arrays.asList<ReactPackage>(
                 MainReactPackage(),
-                MyToastPackage()
+                MyToastPackage(),
+                PickerPackage()
             )
         }
 
