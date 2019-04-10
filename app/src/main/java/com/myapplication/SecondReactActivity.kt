@@ -10,7 +10,7 @@ import com.reactnative.ivpusic.imagepicker.PickerPackage
 import java.util.*
 
 
-class MainReactActivity : MyReactActivity() {
+class SecondReactActivity : MyReactActivity() {
 
     override fun createReactNativeHost(app: Application): ReactNativeHost {
         return object : ReactNativeHost(app) {
@@ -31,7 +31,7 @@ class MainReactActivity : MyReactActivity() {
             }
 
             override fun getBundleAssetName(): String? {
-                return "index.android.bundle"
+                return "secondrn.android.bundle"
             }
         }
     }
