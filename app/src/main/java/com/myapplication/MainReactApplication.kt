@@ -23,8 +23,8 @@ class MainReactApplication : Application(), ReactApplication {
             )
         }
 
-        override fun getBundleAssetName(): String {
-            return "index.android.bundle"
+        override fun getJSMainModuleName(): String {
+            return "index"
         }
     }
 
