@@ -5,6 +5,8 @@ import com.facebook.react.ReactApplication
 import com.facebook.react.ReactNativeHost
 import com.facebook.react.ReactPackage
 import com.facebook.react.shell.MainReactPackage
+import com.myapplication.reactnativelibrary.customtoast.MyToastModule
+import com.myapplication.reactnativelibrary.customtoast.MyToastPackage
 import java.util.*
 
 class MainReactApplication : Application(), ReactApplication {
@@ -19,7 +21,8 @@ class MainReactApplication : Application(), ReactApplication {
 
         override fun getPackages(): List<ReactPackage> {
             return Arrays.asList<ReactPackage>(
-                MainReactPackage()
+                MainReactPackage(),
+                MyToastPackage()
             )
         }
 
