@@ -279,7 +279,7 @@ https://facebook.github.io/react-native/docs/native-modules-android
 https://github.com/ivpusic/react-native-image-crop-picker
 
 
-# #Decoupling React Native Host from ReactApplication (Experimental)
+## Decoupling React Native Host from ReactApplication (Experimental)
 
 Suppose your application contains multiple react-native applications and you would like to open different index.android.bundle files based on the activity started. Currently, all ReactActivities reference ReactApplication which can only serve a single index.android.bundle file. 
 
